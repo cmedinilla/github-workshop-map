@@ -1,33 +1,24 @@
 let map;
+let info;
+
 
 
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 2,
-    center: {lat: -33.865427, lng: 151.196123},
+    zoom: 5,
+    center: {lat: 23.6447985, lng: -99.8093893},
     mapTypeId: 'terrain'
   });
-
-
-  array.forEach(json => {
-    var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
-    var marker = new google.maps.Marker({
-      position: myLatlng,
+  data.forEach(i => {
+    var ltlg = new google.maps.LatLng(i.lt,i.lg);
+    marker = new google.maps.Marker({
+      position: ltlg,
       title:"Hello World!"
     });
-    marker.setMap(map);  
-  });
-
+    marker.setMap(map);
+  });  
 }
 
-function get () {
-    function reqListener () {
-      console.log( this.response );
-    }
-    var newXHR = new XMLHttpRequest();
-    newXHR.addEventListener( 'load', reqListener );
-    newXHR.open( 'GET', 'http://requestb.in/1k6rql51' );
-    newXHR.send();
-};
+
 
