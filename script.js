@@ -14,7 +14,7 @@ function initMap() {
     var ltlg = new google.maps.LatLng(i.lt,i.lg);
     marker = new google.maps.Marker({
       position: ltlg,
-      title:"Intersys Rocks!!!"
+      title: i.cityName
     });
     marker.setMap(map);
   });  
