@@ -13,9 +13,9 @@ function initMap() {
   data.forEach(i => {
     var ltlg = new google.maps.LatLng(i.lt,i.lg);
     marker = new google.maps.Marker({
-      position: ltlg,
-      title:"Hello World!"
+      position: ltlg
     });
+    marker.setAnimation(google.maps.Animation.DROP);
     marker.setMap(map);
   });  
 }
