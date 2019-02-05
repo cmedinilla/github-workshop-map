@@ -5,4 +5,3 @@ const data = [
     { "lt": 20.6736, "lg": -103.344 }, //Triunfo Bobadilla
     { "lt":20.6468764, "lg":-103.3096554 } //Hector Mares
   ];
-  
