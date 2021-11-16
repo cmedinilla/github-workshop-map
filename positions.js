@@ -1,6 +1,7 @@
 const data = [
     {"lt": 25.5315788, "lg": -103.4031409, "name": "Christian Medinilla"},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"lt": 22.233105, "lg": -97.861099, "name": "Francisco Ventura"},
     {"lt": 52.4803739, "lg": 62.1834362, "name": "Mike"},
     {"lt":20.593684, "lg":78.96288, "name":"Antonio Rodriguez Barrientos"},
@@ -8,4 +9,7 @@ const data = [
 =======
     {"lt": 20.6736, "lg": -103.344, "name": "Roberto Lazo"}
 >>>>>>> 1796ff0 (ADD: add a new positions)
+=======
+    {"lt": 20.6736, "lg": -103.344, "name": "Roberto Lazo"},
+>>>>>>> 990478f (UPDATE: update positions.js file)
 ];
