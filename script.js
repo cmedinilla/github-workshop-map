@@ -16,6 +16,7 @@ function initMap() {
       position: ltlg,
       title: i.name
     });
+    marker.setAnimation(google.maps.Animation.DROP);
     marker.setMap(map);
   });  
 }
