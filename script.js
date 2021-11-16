@@ -13,7 +13,8 @@ function initMap() {
   data.forEach(i => {
     var ltlg = new google.maps.LatLng(i.lt,i.lg);
     marker = new google.maps.Marker({
-      position: ltlg
+      position: ltlg,
+      title: i.name
     });
     marker.setAnimation(google.maps.Animation.DROP);
     marker.setMap(map);
