@@ -5,4 +5,5 @@ const data = [
     {"lt": 20.593684, "lg": -78.96288, "name": "Antonio Rodriguez Barrientos"},
     {"lt": 20.6736, "lg": -103.344, "name": "Roberto Lazo"},
     {"lt": 19.4785100, "lg": -99.2396300, "name": "Manuel Sanchez"},
+    {"lt": 20.7176869, "lg": -103.3698748, "name": "Enrique Anaya"}, 
 ];
